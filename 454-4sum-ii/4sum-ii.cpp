@@ -9,6 +9,10 @@ public:
         unordered_map<int, int> sumMap;
         int count = 0;
         int n = nums1.size();
+        sort(nums1.begin(),nums1.end());
+        sort(nums2.begin(),nums2.end());
+        sort(nums3.begin(),nums3.end());
+        sort(nums4.begin(),nums4.end());
      
         for(int i = 0; i < n; i++) {
             for(int j = 0; j < n; j++) {
